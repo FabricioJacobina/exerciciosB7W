@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylo.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+        <div class="formulario">
+            <form name="f_cadastro" action="" method="POST">
+                <div class="flex_esquerda">
+                        <div class="esquerda name">
+                            <label>Nome Completo:</label><br>
+                            <input type="text" name="f_name" size="40" autofocus required placeholder="Nome Completo">
+                        </div>
+                        <div class="esquerda rg">
+                            <label>RG:</label><br>
+                            <input type="text" name="f_rg" size="14" required placeholder="12345678">
+                        </div>
+                        <div class="esquerda cpf">
+                            <label>CPF:</label><br>
+                            <input type="text" name="f_cpf" size="14" required placeholder="000.000.000-00">
+                        </div>
+                        <div class="esquerda date">
+                            <label>Data de Nascimento:</label><br>
+                            <input type="date" name="f_date" required placeholder="dd/mm/aaaa">
+                        </div>
+                        <div class=" esquerda sexo">
+                            <label>Sexo:</label><br>
+                            <input type="radio" name="f_sexo">
+                            <label>F</label>
+                            <input type="radio" name="f_sexo">
+                            <label>M</label>
+                        </div>
+                </div>
+                <div class="flex_direita">
+                    <div class="direita filiacao_mae">
+                        <label>Mãe:</label><br>
+                        <input type="text" name="f_mae" size="40" placeholder="Nome da Mãe">
+                    </div>
+                    <div class="direita filiacao_pai">
+                        <label>Pai:</label><br>
+                        <input type="text" name="f_pai" size="40" placeholder="Nome do Pai">
+                    </div>
+                    <div class="direita celular">
+                        <label>Celular:</label><br>
+                        <input type="tel" name="f_tel" size="35" required placeholder="(00) 0 0000-0000">
+                    </div>
+                    <div class="direita email">
+                        <label>E-mail:</label><br>
+                        <input type="email" name="f_email" size="35" required placeholder="exemplo@email.com">
+                    </div>
+                    <div class="direita estado">
+                        <label>Estado:</label><br>
+                        <select name="f_estado">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC" selected>Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" value="Cadastrar" class="botao">
+                <input type="reset" value="Limpar" class="botao">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
