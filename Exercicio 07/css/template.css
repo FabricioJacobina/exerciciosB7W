@@ -1,0 +1,18 @@
+a{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    background-color: #6495ED;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+a:hover{
+    background-color: #87CEEB;
+    transition: all 0.3s linear;
+}
